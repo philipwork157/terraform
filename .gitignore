@@ -1,0 +1,35 @@
+# ==========================
+# Terraform
+# ==========================
+# Local .terraform directories (anywhere)
+**/.terraform/
+
+# Terraform state files
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfstate.backup
+
+# Terraform lock file (reproducible provider versions)
+**/.terraform.lock.hcl
+
+# Sensitive variable files
+**/*.tfvars
+**/*.tfvars.json
+terraform.tfvars
+
+# Crash logs
+crash.log
+crash.*.log
+
+# ==========================
+# Node / Build files (if mixed with frontend code)
+# ==========================
+dist/
+node_modules/
+
+# ==========================
+# OS / Editor junk
+# ==========================
+.DS_Store
+*.log
+
